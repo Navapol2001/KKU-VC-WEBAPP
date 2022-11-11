@@ -147,55 +147,66 @@
   }
 
   /* match */
+  #nomatch {
+    color: #fff;
+    background-color: #240046;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .tournament-name {
+    color: #fff;
+    background-color: #240046;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .semi-spacer {
+    height: 50px;
+    background-color: #240046;
+}
+  .match-spacer {
+    height: 30px;
+    background-color: #240046;
+  }
+
+  .match-date {
+    color: #fff;
+    background-color: #240046;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .ps {
+    color: #fff;
+    font-size: large;
+    background-color: #240046;
+    text-align: center;
+    margin: 0 auto;
+    font-style: italic;
+  }
 
   .coming-match {
-    height: 400px;
-    display: flex;
+    display: block;
     text-align: center;
     align-items: center;
     justify-content: center;
     background-color: #240046;
-    
   }
 
-  .team {
-    margin: auto 50px;
-    width: 280px;
-    border-radius: 50%;
-    height: 280px;
-  }
-
-  .match-date-info {
-    margin: auto 100px;
-  }
-
-  .match-date-info h1, p {
-    color: #fff;
-  }
-
-  .team img {
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-  }
-
-  .team h2 {
-    margin-top: 20px;
-    color: #fff;
-  }
-
-  footer {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  footer .container {
+  /* result */
+  .result-content {
+    display: block;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #240046;
   }
-
-  footer .container p {
+  #noresult {
+    color: #fff;
+    background-color: #240046;
+    text-align: center;
     margin: 0 auto;
   }
+
 
   /* tournament */
 
